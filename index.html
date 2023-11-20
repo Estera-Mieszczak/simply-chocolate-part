@@ -1,48 +1,110 @@
-<section class="advantages-section">
-    <div class="container advantages-container">
-        <h2 class="hidden">Agvantages</h2>
-        <ul class="advantages-list">
-            <li class="advantages-list-element">
-                <div class="advantages-icon"><svg xlmns="http://www.w3.org/2000/svg" width="32" height="32">
-                        <use href="images/icons.svg#icon-fluent-emoji-high-contrast_chocolate-bar"></use>
-                    </svg></div>
-                <h3 class="advantages-text-head">Unsurpassed taste</h3>
-                <p class="advantages-text">Crafted with the finest quality cocoa beans and a dedication to perfection,
-                    each bite is a decadent
-                    experience that
-                    simply cannot be matched. Savor the richness and complexity of our Unsurpassed Taste and discover a
-                    new
-                    level of
-                    chocolate bliss.</p>
-            </li>
-            <li class="advantages-list-element">
-                <div class="advantages-icon">
-                    <svg xlmns="http://www.w3.org/2000/svg" width="32" height="32">
-                        <use href="images/icons.svg#icon-Group"></use>
-                    </svg>
-                </div>
-                <h3 class="advantages-text-head">Affordable price</h3>
-                <p class="advantages-text">Indulge in high-quality chocolate without breaking the bank with Simply
-                    Chocolate's selection of
-                    affordable treats.
-                    Enjoy mouth-watering truffles and velvety chocolate bars without sacrificing taste or quality.
-                    Browse
-                    our selection and
-                    indulge in affordable luxury today.</p>
-            </li>
-            <li class="advantages-list-element">
-                <div class="advantages-icon">
-                    <svg xlmns="http://www.w3.org/2000/svg" width="32" height="32">
-                        <use href="images/icons.svg#icon-la_utensil-spoon"></use>
-                    </svg>
-                </div>
-                <h3 class="advantages-text-head">Own production</h3>
-                <p class="advantages-text">We take pride in our own production process, ensuring that every step is
-                    carefully crafted to perfection.
-                    From selecting
-                    the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.
-                </p>
-            </li>
-        </ul>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simply Chocolate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <!-- W taki sposbu dodajemy fragmenty w główny HTML-plik strony. -->
+    <main>
+        <section class="advantages-section">
+            <div class="container">
+                <h2 class="hidden">Agvantages</h2>
+                <ul class="advantages-list">
+                    <li class="advantages-list-element">
+                        <div class="advantages-line"></div>
+                        <div class="advantages-icon"><svg xlmns="http://www.w3.org/2000/svg" width="32" height="32">
+                                <use href="images/icons.svg#icon-fluent-emoji-high-contrast_chocolate-bar"></use>
+                            </svg></div>
+                        <h3 class="advantages-text-head">Unsurpassed taste</h3>
+                        <p class="advantages-text">Crafted with the finest quality cocoa beans and a dedication to perfection,
+                            each bite is a decadent
+                            experience that
+                            simply cannot be matched. Savor the richness and complexity of our Unsurpassed Taste and discover a
+                            new
+                            level of
+                            chocolate bliss.</p>
+                    </li>
+                    <li class="advantages-list-element">
+                        <div class="advantages-line"></div>
+                        <div class="advantages-icon">
+                            <svg xlmns="http://www.w3.org/2000/svg" width="32" height="32">
+                                <use href="images/icons.svg#icon-Group"></use>
+                            </svg>
+                        </div>
+                        <h3 class="advantages-text-head">Affordable price</h3>
+                        <p class="advantages-text">Indulge in high-quality chocolate without breaking the bank with Simply
+                            Chocolate's selection of
+                            affordable treats.
+                            Enjoy mouth-watering truffles and velvety chocolate bars without sacrificing taste or quality.
+                            Browse
+                            our selection and
+                            indulge in affordable luxury today.</p>
+                    </li>
+                    <li class="advantages-list-element">
+                        <div class="advantages-icon">
+                            <svg xlmns="http://www.w3.org/2000/svg" width="32" height="32">
+                                <use href="images/icons.svg#icon-la_utensil-spoon"></use>
+                            </svg>
+                        </div>
+                        <h3 class="advantages-text-head">Own production</h3>
+                        <p class="advantages-text">We take pride in our own production process, ensuring that every step is
+                            carefully crafted to perfection.
+                            From selecting
+                            the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="reviews-section">
+            <button data-modal-open class="review-button" type="button">Leave a review</button>
+        </section>
+    </main>
+    <div class="review-modal-window is-hidden" data-modal>
+        <div class="review-modal-body">
+            <button class="review-modal-close" data-modal-close type="button">
+                <svg class="review-close-icon" fill="currentcolor" width="24" height="24" xlmns="http://www.w3.org/2000/svg">
+                    <use href="images/icons.svg#icon-Icon"></use>
+                </svg>
+            </button>
+            <p class="review-modal-window-title">
+                leave a review about <span class="review-modal-window-title-color">our chocolate</span>
+            </p>
+            <form class="review-form">
+                <label class="hidden" for="user-name">Name</label>
+                <input class="review-modal-form-field" type="text" name="user-name" id="user-name" placeholder="Name" required/>
+                <label class="hidden" for="email">Email</label>
+                <input class="review-modal-form-field" type="email" name="email" id="email" placeholder="Enter your email" required/>
+                <label class="hidden" for="phone">Phone number</label>
+                <input class="review-modal-form-field" type="tel" name="phone" id="phone" placeholder="Phone number" required/>
+                <label class="hidden" for="user-comment">Comment</label>
+                <textarea class="review-modal-text-field" name="user-comment" id="user-comment" placeholder="Enter text"></textarea>
+            </form>
+            <button class="review-modal-button" type="submit">Send</button>
+        </div>
     </div>
-</section>
+    <!-- Skrypt jest na samym dole kodu. On juz ma w sobie podłączony SAAS plik. -->
+    <script src="./js/modal.js"></script>
+    <script src="./index.js" type="module"></script>
+</body>
+
+</html>
+
